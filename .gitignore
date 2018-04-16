@@ -6,6 +6,10 @@ __pycache__/
 # C extensions
 *.so
 
+
+C
+test*
+train*
 train
 train_croped
 

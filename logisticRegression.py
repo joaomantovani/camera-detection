@@ -18,7 +18,7 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.20, random
 
 
 logreg = LogisticRegression()
-results = logreg.fit(X_train, y_train)
+results = logreg.fit(X_train, y_train)  # type: object
 
 print logreg.predict([[0.6819192346, 0.7091948608]])
 
