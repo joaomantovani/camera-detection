@@ -24,3 +24,5 @@ print logreg.predict([[0.6819192346, 0.7091948608]])
 
 print('Accuracy of logistic regression classifier on test set: {:.2f}'.format(logreg.score(X_test, y_test)))
 
+
+print X.unique()
