@@ -150,7 +150,6 @@ def convertImgToArray(imgpath):
     # Load image
     img = PIL.Image.open(imgpath).convert("RGB")
     imgarr = np.array(img)
-
     # im = Image.open(imgpath)
     # pixels = list(im.getdata())
 
